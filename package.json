@@ -1,0 +1,30 @@
+{
+  "name": "badge-js-test-coverage",
+  "version": "1.0.0",
+  "description": "Library to create unit test badges coverage to Javascript and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "run": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialuisacp/badge-js-test-coverage.git"
+  },
+  "keywords": [
+    "jest",
+    "mocha",
+    "badges",
+    "readme",
+    "js",
+    "ts"
+  ],
+  "author": "Maria Luísa @marialuisacp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marialuisacp/badge-js-test-coverage/issues"
+  },
+  "homepage": "https://github.com/marialuisacp/badge-js-test-coverage#readme"
+}

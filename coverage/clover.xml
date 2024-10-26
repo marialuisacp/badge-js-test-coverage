@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1729968918366" clover="3.2.0">
+  <project timestamp="1729968918366" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2" elements="18" coveredelements="13" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+    <file name="App.tsx" path="/Users/adm/workspace/ReactNativeTemplate/App.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="10" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
