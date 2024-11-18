@@ -1,8 +1,7 @@
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="logo.png" alt="Logo" width="240" height="73">
-  </a>
+  <img src="logo.png" alt="Logo" width="240" height="73">
+
 
   <h1 align="center">badge-js-test-coverage</h1>
 
