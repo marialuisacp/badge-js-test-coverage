@@ -1,10 +1,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="logo.png" alt="Logo" width="180" height="146">
+    <img src="logo.png" alt="Logo" width="240" height="73">
   </a>
 
-  <h3 align="center">badge-js-test-coverage</h3>
+  <h1 align="center">badge-js-test-coverage</h1>
 
   <p align="center">
     This library implements badges for JavaScript test coverage. It supports tests using either Mocha or Jest implementations.    
@@ -76,6 +76,16 @@ npx badge-js-test-coverage {badges_output}
 **Example:**
 ```
 npx badge-js-test-coverage badges_output
+```
+
+This command will create a folder:
+
+```
+└── badges_output
+     ├── branches.svg
+     ├── functions.svg
+     ├── lines.svg
+     └── statements.svg
 ```
 
 Add the following to your `README.md`:
