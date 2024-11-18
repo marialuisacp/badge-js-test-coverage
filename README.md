@@ -1,8 +1,8 @@
 <br />
 <div align="center">
-  <img src="logo-lib.png" alt="Logo" width="240" height="73">
+  <img src="image.png" alt="Logo" width="240" height="73">
 
-  <h1 align="center">badge-js-test-coverage</h1>
+  <h1 align="center">js-coverage-badges</h1>
 
   <p align="center">
     This library implements badges for JavaScript test coverage. It supports tests using either Mocha or Jest implementations.    
@@ -68,12 +68,12 @@ npm install
 
 2. Run the command:
 ```
-npx badge-js-test-coverage {badges_output}
+npx js-coverage-badges {badges_output}
 ```
 
 **Example:**
 ```
-npx badge-js-test-coverage badges_output
+npx js-coverage-badges badges_output
 ```
 
 This command will create a folder:
