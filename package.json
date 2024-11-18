@@ -1,6 +1,6 @@
 {
   "name": "badge-js-test-coverage",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Library to create unit test badges coverage to Javascript and Typescript",
   "main": "index.js",
   "scripts": {

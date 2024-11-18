@@ -17,7 +17,8 @@ const path = require('path');
 const argOutputFolder = process.argv[2];
 let folderToSave = process.argv[2] ? `${argOutputFolder}` : 'badges_output';
 
-const coverageResults = require('../coverage/coverage-summary.json');
+const projectRoot = process.cwd();
+const coverageResults = require(`${projectRoot}/coverage/coverage-summary.json`);
 const coverage = coverageResults.total;
 const badgesTypes = ['statements', 'lines', 'functions', 'branches'];
 
@@ -54,7 +55,7 @@ const createFolder = (folderName, parentPath) => {
 };
 
 const readWriteSync = () => {
-  const fileName = './src/badge-template.svg';
+  const fileName = path.resolve(__dirname, './badge-template.svg');
   var data = fs.readFileSync(fileName, 'utf-8');
   createFolder(folderToSave, './');
   badgesTypes.forEach((badge) => {
