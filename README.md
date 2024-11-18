@@ -1,7 +1,6 @@
 <br />
 <div align="center">
-  <img src="logo.png" alt="Logo" width="240" height="73">
-
+  <img src="logo-lib.png" alt="Logo" width="240" height="73">
 
   <h1 align="center">badge-js-test-coverage</h1>
 
