@@ -81,9 +81,20 @@ This command will create a folder:
 ```
 └── badges_output
      ├── branches.svg
+     ├── branches_chart.svg
      ├── functions.svg
+     ├── functions_chart.svg
      ├── lines.svg
-     └── statements.svg
+     ├── lines_chart.svg
+     ├── statements.svg
+     └── statements_chart.svg
+```
+
+**Badges**
+
+Run: 
+```
+npx js-coverage-badges badges_output mode:badge
 ```
 
 Add the following to your `README.md`:
@@ -100,13 +111,28 @@ That will displays something like:
 
 **Tests Coverage**
 
-***Badges***
-
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](./badges_output/statements.svg) | ![Branches](./badges_output/branches.svg) | ![Functions](./badges_output/functions.svg) | ![Lines](./badges_output/lines.svg) |
 
-***Charts***
+**Charts**
+
+Run:
+
+```
+npx js-coverage-badges badges_output mode:chart
+```
+
+Add the following code to your `README.md`:
+
+```
+**Tests Coverage**
+
+ ![Statements](./badges_output/statements_chart.svg)  ![Branches](./badges_output/branches_chart.svg)  ![Functions](./badges_output/functions_chart.svg)  ![Lines](./badges_output/lines_chart.svg) 
+```
+
+This will display something like this:
+
  ![Statements](./badges_output/statements_chart.svg)  ![Branches](./badges_output/branches_chart.svg)  ![Functions](./badges_output/functions_chart.svg)  ![Lines](./badges_output/lines_chart.svg) 
 
 

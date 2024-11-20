@@ -4,7 +4,8 @@
   "description": "Library to create unit test badges coverage to Javascript and Typescript",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "bin": {
     "run": "./index.js"
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/marialuisacp/js-coverage-badges/issues"
   },
-  "homepage": "https://github.com/marialuisacp/js-coverage-badges#readme"
+  "homepage": "https://github.com/marialuisacp/js-coverage-badges#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
