@@ -3,7 +3,7 @@
   <title>BRANCHES: 50%</title>
   <g shape-rendering="crispEdges">
     <rect width="89" height="28" fill="#555"/>
-    <rect x="89" width="53.75" height="28" fill="#f1c40f"/>
+    <rect x="89" width="53.75" height="28" fill="#fdcb6e"/>
   </g>
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
     <text transform="scale(.1)" x="445" y="175" textLength="650" fill="#fff">BRANCHES</text>
