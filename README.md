@@ -147,7 +147,8 @@ The badges will be displayed like this:
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](./badges_output/statements.svg) | ![Branches](./badges_output/branches.svg) | ![Functions](./badges_output/functions.svg) | ![Lines](./badges_output/lines.svg) |
 
-###Chart Mode
+
+### Chart Mode
 
 To generate only donut charts (no badges), run:
 
