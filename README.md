@@ -9,6 +9,23 @@
   </p>
 </div>
 
+<!-- CONFIG -->
+## Demonstration
+<br/>
+<div align="center">
+<img src="./badges_output/functions.svg" alt="Logo">
+<img src="./badges_output/statements.svg" alt="Logo">
+<img src="./badges_output/branches.svg" alt="Logo">
+<img src="./badges_output/lines.svg" alt="Logo">
+</div>
+<br/><br/>
+<div align="center">
+<img src="./badges_output/functions_chart.svg" alt="Logo">
+<img src="./badges_output/statements_chart.svg" alt="Logo">
+<img src="./badges_output/branches_chart.svg" alt="Logo">
+<img src="./badges_output/lines_chart.svg" alt="Logo">
+</div>
+<br/>
 
 <!-- CONFIG -->
 ## Get Started
