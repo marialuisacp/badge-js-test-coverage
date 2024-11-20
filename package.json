@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/marialuisacp/js-coverage-badges/issues"
   },
-  "homepage": "https://github.com/marialuisacp/js-coverage-badges#readme"
+  "homepage": "https://github.com/marialuisacp/js-coverage-badges#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
