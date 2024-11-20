@@ -74,9 +74,10 @@ const readWriteSync = () => {
       console.log(`Error: Invalid coverage data to ${badge}`);
     }
   });
-
-  console.log('Result: - Badges generated ✓');
-  console.log('        - Charts generated ✓');
+  (mode === 'badge') | (mode === 'all') &&
+    console.log('Result: - Badges generated ✓');
+  (mode === 'chart') | (mode === 'all') &&
+    console.log('Result: - Charts generated ✓');
 };
 
 exports.readWriteSync = readWriteSync;

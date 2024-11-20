@@ -2,15 +2,15 @@
   "total": {
     "lines": {
       "total": 6,
-      "covered": 6,
+      "covered": 5,
       "skipped": 0,
       "pct": 100
     },
     "statements": {
       "total": 6,
-      "covered": 6,
+      "covered": 4.7,
       "skipped": 0,
-      "pct": 100
+      "pct": 45
     },
     "functions": {
       "total": 2,
@@ -20,7 +20,7 @@
     },
     "branches": {
       "total": 10,
-      "covered": 5,
+      "covered": 4.8,
       "skipped": 0,
       "pct": 50
     },
@@ -34,7 +34,7 @@
   "/Users/adm/workspace/ReactNativeTemplate/App.tsx": {
     "lines": {
       "total": 6,
-      "covered": 6,
+      "covered": 5,
       "skipped": 0,
       "pct": 100
     },
@@ -46,13 +46,13 @@
     },
     "statements": {
       "total": 6,
-      "covered": 6,
+      "covered": 4.7,
       "skipped": 0,
-      "pct": 100
+      "pct": 45
     },
     "branches": {
       "total": 10,
-      "covered": 5,
+      "covered": 4.8,
       "skipped": 0,
       "pct": 50
     }

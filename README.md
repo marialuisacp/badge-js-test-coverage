@@ -90,50 +90,80 @@ This command will create a folder:
      └── statements_chart.svg
 ```
 
-**Badges**
+## Modes
 
-Run: 
+By default, the tool generates two images for each test type (statements, functions, branches, and lines): one badge and one donut chart. However, you can choose to generate only the badge or only the chart.
+
+### Badge Mode
+To generate only badges (no charts), run:
+
 ```
 npx js-coverage-badges badges_output mode:badge
 ```
 
-Add the following to your `README.md`:
+
+This will create only the badge images:
 
 ```
-**Tests Coverage**
+└── badges_output
+     ├── branches.svg
+     ├── functions.svg
+     ├── lines.svg
+     └── statements.svg
+```
+
+Add the following code to your README.md to display the badges:
+
+```
+**Test Coverage**
 
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](./badges_output/statements.svg) | ![Branches](./badges_output/branches.svg) | ![Functions](./badges_output/functions.svg) | ![Lines](./badges_output/lines.svg) |
 ```
 
-That will displays something like:
+The badges will be displayed like this:
 
-**Tests Coverage**
+**Test Coverage**
 
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
 | ![Statements](./badges_output/statements.svg) | ![Branches](./badges_output/branches.svg) | ![Functions](./badges_output/functions.svg) | ![Lines](./badges_output/lines.svg) |
 
-**Charts**
+###Chart Mode
 
-Run:
+To generate only donut charts (no badges), run:
 
 ```
 npx js-coverage-badges badges_output mode:chart
 ```
 
-Add the following code to your `README.md`:
+This will create only the chart images:
 
 ```
-**Tests Coverage**
-
- ![Statements](./badges_output/statements_chart.svg)  ![Branches](./badges_output/branches_chart.svg)  ![Functions](./badges_output/functions_chart.svg)  ![Lines](./badges_output/lines_chart.svg) 
+└── badges_output
+     ├── branches_chart.svg
+     ├── functions_chart.svg
+     ├── lines_chart.svg
+     └── statements_chart.svg
 ```
 
-This will display something like this:
+Add the following code to your README.md to display the charts:
 
- ![Statements](./badges_output/statements_chart.svg)  ![Branches](./badges_output/branches_chart.svg)  ![Functions](./badges_output/functions_chart.svg)  ![Lines](./badges_output/lines_chart.svg) 
+```
+**Test Coverage**
+
+![Lines](./badges_output/lines_chart.svg) ![Statements](./badges_output/statements_chart.svg)  ![Branches](./badges_output/branches_chart.svg)  ![Functions](./badges_output/functions_chart.svg)  
+```
+
+The charts will be displayed like this:
+
+**Test Coverage**
+
+![Functions](./badges_output/functions_chart.svg)
+![Statements](./badges_output/statements_chart.svg)
+![Branches](./badges_output/branches_chart.svg)
+![Lines](./badges_output/lines_chart.svg)
 
 
 <!-- CONTRIBUTING -->
