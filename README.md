@@ -9,8 +9,7 @@
   </p>
 </div>
 
-<!-- CONFIG -->
-## Demonstration
+<!-- DEMO -->
 <br/>
 <div align="center">
 <img src="./badges_output/functions.svg" alt="Logo">
@@ -30,9 +29,21 @@
 <!-- CONFIG -->
 ## Get Started
 
+### Installation
+
+1. Install the library:
+```
+npm i js-coverage-badges
+```
+or 
+
+```
+yarn add js-coverage-badges
+```
+
 ### Requirements 
 
-Configure Jest or Mock.
+Configure your test library: we support Jest or Mock.
 
 #### Mocha Configuration
 
@@ -68,22 +79,18 @@ It is necessary to have the `.nyc_output` folder.
 
 #### Jest Configuration
 
-Run:
+Just run:
 ```
 jest --coverage --coverageReporters="json-summary"
 ```
 
-It is necessary that the coverage folder exists.
+**Note: 
+This commands will create a `coverage` folder. It is necessary that the coverage `folder` exists in your project to use this library.**
 
 <!-- USAGE -->
 ## Usage
 
-1. Install the library:
-```
-npm install 
-```
-
-2. Run the command:
+Run the command:
 ```
 npx js-coverage-badges {badges_output}
 ```
